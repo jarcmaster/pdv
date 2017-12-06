@@ -1,247 +1,319 @@
 ﻿[Switch3]
-Coordinates=414,1026,65,58
+Coordinates=414,1026,54,51
 
 [Label5]
-Coordinates=356,10,53,58
+Coordinates=356,10,46,51
 
 [Edit10]
-Coordinates=612,10,51,58
+Coordinates=612,10,45,51
 
 [Switch12]
-Coordinates=1663,958,67,58
+Coordinates=1663,958,58,51
 
 [Edit11]
-Coordinates=1613,1026,51,58
+Coordinates=1613,1026,45,51
 
 [Edit6]
-Coordinates=489,10,44,58
+Coordinates=489,10,40,51
 
 [Label34]
-Coordinates=1013,958,60,58
+Coordinates=1013,958,52,51
 
 [grbFlags]
-Coordinates=277,958,65,58
+Coordinates=277,958,57,51
 
 [Button4]
-Coordinates=1544,1026,59,58
+Coordinates=1544,1026,53,51
 
 [Edit13]
-Coordinates=882,958,51,58
+Coordinates=882,958,45,51
 
 [Label1]
-Coordinates=309,1094,53,58
+Coordinates=309,1094,46,51
 
 [Label16]
-Coordinates=1264,1026,60,58
+Coordinates=1264,1026,52,51
 
 [Button3]
-Coordinates=622,1026,59,58
+Coordinates=622,1026,53,51
 
 [Button2]
-Coordinates=372,1094,59,58
+Coordinates=372,1094,53,51
 
 [swtRestrictSale]
-Coordinates=781,10,104,58
+Coordinates=781,10,91,51
 
 [Edit4]
-Coordinates=673,10,44,58
+Coordinates=673,10,40,51
 
 [Label28]
-Coordinates=153,10,60,58
+Coordinates=153,10,52,51
 
 [grbPosition]
-Coordinates=85,1026,79,58
+Coordinates=85,1026,71,51
 
 [Edit19]
-Coordinates=943,1026,51,58
+Coordinates=943,1026,45,51
 
 [Label18]
-Coordinates=1180,10,60,58
+Coordinates=1180,10,52,51
 
 [Panel3]
-Coordinates=571,1094,55,36
+Coordinates=571,1094,47,33
 
 [bCategory]
-Coordinates=225,1094,74,58
+Coordinates=225,1094,65,51
 
 [Edit16]
-Coordinates=174,1026,51,58
+Coordinates=174,1026,45,51
 
 [Switch2]
-Coordinates=71,958,65,58
+Coordinates=71,958,54,51
 
 [Label21]
-Coordinates=1320,10,60,58
+Coordinates=1320,10,52,51
 
 [Label2]
-Coordinates=293,10,53,58
+Coordinates=293,10,46,51
 
 [Edit14]
-Coordinates=146,958,51,58
+Coordinates=146,958,45,51
 
 [Label32]
-Coordinates=895,10,60,58
+Coordinates=895,10,52,51
 
 [Edit12]
-Coordinates=10,958,51,58
+Coordinates=10,958,45,51
 
 [Switch11]
-Coordinates=1146,958,67,58
+Coordinates=1146,958,58,51
 
 [Panel2]
-Coordinates=506,1094,55,36
+Coordinates=506,1094,47,33
 
 [Edit18]
-Coordinates=1203,1026,51,58
+Coordinates=1203,1026,45,51
 
 [Label9]
-Coordinates=533,958,53,58
+Coordinates=533,958,46,51
 
 [Label26]
-Coordinates=596,958,60,58
+Coordinates=596,958,52,51
 
 [Label14]
-Coordinates=943,958,60,58
+Coordinates=943,958,52,51
 
 [Label6]
-Coordinates=1083,958,53,58
-
-[Edit2]
-Coordinates=753,958,44,58
+Coordinates=1083,958,46,51
 
 [Label24]
-Coordinates=552,1026,60,58
+Coordinates=552,1026,52,51
 
 [Label33]
-Coordinates=1390,10,60,58
+Coordinates=1390,10,52,51
 
 [Label29]
-Coordinates=1474,1026,60,58
+Coordinates=1474,1026,52,51
 
 [Label35]
-Coordinates=1334,1026,60,58
+Coordinates=1334,1026,52,51
 
 [Label25]
-Coordinates=1133,1026,60,58
+Coordinates=1133,1026,52,51
 
 [Label4]
-Coordinates=489,1026,53,58
+Coordinates=489,1026,46,51
 
 [Label15]
-Coordinates=223,10,60,58
+Coordinates=223,10,52,51
 
 [Edit8]
-Coordinates=352,958,44,58
+Coordinates=352,958,40,51
 
 [Label22]
-Coordinates=1415,958,60,58
+Coordinates=1415,958,52,51
 
 [Switch8]
-Coordinates=807,958,65,58
+Coordinates=807,958,54,51
 
 [Label20]
-Coordinates=207,958,60,58
+Coordinates=207,958,52,51
 
 [Edit5]
-Coordinates=1004,1026,44,58
+Coordinates=1004,1026,40,51
 
 [bBrand]
-Coordinates=467,958,56,58
+Coordinates=467,958,50,51
 
 [Switch9]
-Coordinates=10,1026,65,58
+Coordinates=10,1026,54,51
 
 [Label3]
-Coordinates=1460,10,53,58
+Coordinates=1460,10,46,51
 
 [Label17]
-Coordinates=85,1094,60,58
+Coordinates=85,1094,52,51
 
 [Label13]
-Coordinates=1110,10,60,58
+Coordinates=1110,10,52,51
 
 [Edit3]
-Coordinates=1555,958,44,58
+Coordinates=1555,958,40,51
 
 [Label23]
-Coordinates=691,1026,60,58
+Coordinates=691,1026,52,51
 
 [Label12]
-Coordinates=419,10,60,58
+Coordinates=419,10,52,51
 
 [Switch1]
-Coordinates=1035,10,65,58
+Coordinates=1035,10,54,51
 
 [Label27]
-Coordinates=965,10,60,58
+Coordinates=965,10,52,51
 
 [Edit17]
-Coordinates=1354,958,51,58
+Coordinates=1354,958,45,51
 
 [swtDeposit]
-Coordinates=666,958,77,58
+Coordinates=666,958,69,51
 
 [eUPC]
-Coordinates=1674,1026,48,58
+Coordinates=1674,1026,41,51
 
 [Label7]
-Coordinates=235,1026,53,58
+Coordinates=235,1026,46,51
 
 [Label31]
-Coordinates=1250,10,60,58
+Coordinates=1250,10,52,51
 
 [edtAge2Restrict]
-Coordinates=298,1026,106,58
+Coordinates=298,1026,93,51
 
 [Edit20]
-Coordinates=1577,10,51,58
+Coordinates=1577,10,45,51
 
 [Panel1]
-Coordinates=441,1094,55,36
+Coordinates=441,1094,47,33
 
 [Switch4]
-Coordinates=10,1094,65,58
+Coordinates=10,1094,54,51
 
 [Switch7]
-Coordinates=1058,1026,65,58
+Coordinates=1058,1026,54,51
 
 [Label8]
-Coordinates=761,1026,53,58
+Coordinates=761,1026,46,51
 
 [Label30]
-Coordinates=1638,10,60,58
+Coordinates=1638,10,52,51
 
 [Switch6]
-Coordinates=1223,958,65,58
+Coordinates=1223,958,54,51
 
 [Edit9]
-Coordinates=1609,958,44,58
+Coordinates=1609,958,40,51
 
 [Button1]
-Coordinates=543,10,59,58
+Coordinates=543,10,53,51
 
 [Label19]
-Coordinates=155,1094,60,58
+Coordinates=155,1094,52,51
 
 [Edit7]
-Coordinates=727,10,44,58
+Coordinates=727,10,40,51
 
 [Label11]
-Coordinates=1485,958,60,58
+Coordinates=1485,958,52,51
 
 [edtDepositValue]
-Coordinates=824,1026,109,58
-
-[Edit1]
-Coordinates=1523,10,44,58
+Coordinates=824,1026,95,51
 
 [Label10]
-Coordinates=1404,1026,60,58
+Coordinates=1404,1026,52,51
 
 [Edit15]
-Coordinates=406,958,51,58
+Coordinates=406,958,45,51
 
 []
 Coordinates=1298,958,46,58
 Visible=True
+
+[Label41]
+Coordinates=0,0,52,51
+
+[Edit22]
+Coordinates=52,70,45,51
+
+[Edit26]
+Coordinates=440,290,45,51
+
+[GroupBox3]
+Coordinates=100,159,70,51
+
+[Edit24]
+Coordinates=286,80,45,51
+
+[Edit25]
+Coordinates=21,337,45,51
+
+[grbItemPircute]
+Coordinates=440,80,87,51
+
+[ComboBox1]
+Coordinates=286,220,84,105
+
+[imgItemPicture]
+Coordinates=160,1,88,51
+
+[Label44]
+Coordinates=267,337,52,51
+
+[Edit28]
+Coordinates=178,248,45,51
+
+[Label37]
+Coordinates=208,337,52,51
+
+[Edit23]
+Coordinates=51,159,45,51
+
+[GroupBox2]
+Coordinates=129,337,70,51
+
+[Label39]
+Coordinates=70,337,52,51
+
+[Label40]
+Coordinates=440,150,52,51
+
+[Edit27]
+Coordinates=179,141,45,51
+
+[Edit21]
+Coordinates=0,108,45,51
+
+[Label36]
+Coordinates=440,220,52,51
+
+[Label38]
+Coordinates=227,248,52,51
+
+[GroupBox1]
+Coordinates=71,1,70,51
+
+[Label42]
+Coordinates=286,150,52,51
+
+[Label43]
+Coordinates=179,71,52,51
+
+[frmBrand.BindSourceDB1]
+Coordinates=29,248,141,87
+
+[edtID]
+Coordinates=1523,10,40,51
+
+[edtBrandName]
+Coordinates=753,958,40,51
 

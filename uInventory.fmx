@@ -1,4 +1,4 @@
-object Form3: TForm3
+object frmInventory: TfrmInventory
   Left = 0
   Top = 0
   Caption = 'Item manager'
@@ -72,7 +72,7 @@ object Form3: TForm3
       Size.PlatformDefault = False
       Text = 'Brand ID'
     end
-    object Edit1: TEdit
+    object edtID: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       TabOrder = 2
       Text = '0'
@@ -83,7 +83,7 @@ object Form3: TForm3
       Size.Height = 22.000000000000000000
       Size.PlatformDefault = False
     end
-    object Edit2: TEdit
+    object edtBrandName: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       TabOrder = 3
       Text = 'NONE'
@@ -102,6 +102,7 @@ object Form3: TForm3
       Size.PlatformDefault = False
       TabOrder = 4
       Text = '...'
+      OnClick = bBrandClick
     end
     object Label3: TLabel
       Position.X = 128.000000000000000000

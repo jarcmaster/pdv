@@ -3,12 +3,16 @@ program Inventory;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  uInventory in 'uInventory.pas' {Form3};
+  uInventory in 'uInventory.pas' {frmInventory},
+  uBrand in 'uBrand.pas' {frmBrand},
+  uData in 'uData.pas' {dmData: TDataModule};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TfrmInventory, frmInventory);
+  Application.CreateForm(TfrmBrand, frmBrand);
+  Application.CreateForm(TdmData, dmData);
   Application.Run;
 end.

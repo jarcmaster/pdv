@@ -11,15 +11,15 @@ uses
   Data.Bind.Components, Data.Bind.Grid, Data.Bind.DBScope, FMX.ListBox;
 
 type
-  TForm3 = class(TForm)
+  TfrmInventory = class(TForm)
     Panel1: TPanel;
     Panel2: TPanel;
     Panel3: TPanel;
     eUPC: TEdit;
     Label1: TLabel;
     Label2: TLabel;
-    Edit1: TEdit;
-    Edit2: TEdit;
+    edtID: TEdit;
+    edtBrandName: TEdit;
     bBrand: TButton;
     Label3: TLabel;
     Label4: TLabel;
@@ -118,6 +118,7 @@ type
     Label44: TLabel;
     procedure swtDepositSwitch(Sender: TObject);
     procedure swtRestrictSaleSwitch(Sender: TObject);
+    procedure bBrandClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -125,13 +126,21 @@ type
   end;
 
 var
-  Form3: TForm3;
+  frmInventory: TfrmInventory;
 
 implementation
 
 {$R *.fmx}
 
-procedure TForm3.swtDepositSwitch(Sender: TObject);
+uses uBrand;
+
+procedure TfrmInventory.bBrandClick(Sender: TObject);
+begin
+   //Mostrar la ventana de Brands
+   frmBrand.ShowModal ;
+end;
+
+procedure TfrmInventory.swtDepositSwitch(Sender: TObject);
 begin
    if swtDeposit.IsChecked  then
       begin
@@ -146,7 +155,7 @@ begin
 
 end;
 
-procedure TForm3.swtRestrictSaleSwitch(Sender: TObject);
+procedure TfrmInventory.swtRestrictSaleSwitch(Sender: TObject);
 begin
    if swtRestrictSale.IsChecked  then
       begin

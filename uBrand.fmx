@@ -1,0 +1,132 @@
+object frmBrand: TfrmBrand
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = Single
+  Caption = 'Brand Selection'
+  ClientHeight = 480
+  ClientWidth = 511
+  Position = MainFormCenter
+  StyleBook = StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object edtBrand: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 16.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 361.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    OnKeyDown = edtBrandKeyDown
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 24.000000000000000000
+    Text = 'Brand Name'
+  end
+  object BitmapAnimation1: TBitmapAnimation
+    Duration = 0.200000002980232200
+  end
+  object CornerButton1: TCornerButton
+    Corners = [BottomLeft, BottomRight]
+    CornerType = InnerRound
+    Position.X = 392.000000000000000000
+    Position.Y = 392.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 97.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Close'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = CornerButton1Click
+  end
+  object CornerButton2: TCornerButton
+    Position.X = 392.000000000000000000
+    Position.Y = 48.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 80.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'ADD'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+  end
+  object CornerButton3: TCornerButton
+    Position.X = 392.000000000000000000
+    Position.Y = 120.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 80.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'UPDATE'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+  end
+  object CornerButton4: TCornerButton
+    Position.X = 392.000000000000000000
+    Position.Y = 192.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 80.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'DELETE'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+  end
+  object Grid1: TGrid
+    Position.X = 16.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 353.000000000000000000
+    Size.Height = 377.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    OnClick = Grid1Click
+    Options = [AlternatingRowBackground, ColumnResize, RowLines, RowSelect, AlwaysShowSelection, Tabs, Header, HeaderClick]
+    RowCount = 2529
+    RowHeight = 40.000000000000000000
+    TextSettings.Font.Size = 15.000000000000000000
+    StyledSettings = [Family, Style, FontColor]
+  end
+  object StyleBook1: TStyleBook
+    Left = 432
+    Top = 320
+    ResourcesBin = {464D585F5354594C4520322E350100}
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = dmData.qBrand
+    ScopeMappings = <>
+    Left = 240
+    Top = 224
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'id'
+          Header = 'ID'
+          Width = 70
+        end
+        item
+          MemberName = 'name'
+          Header = 'Brand Name'
+          Width = 260
+        end>
+    end
+  end
+end

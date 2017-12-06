@@ -212,8 +212,17 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="uInventory.pas">
-            <Form>Form3</Form>
+            <Form>frmInventory</Form>
             <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="uBrand.pas">
+            <Form>frmBrand</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="uData.pas">
+            <Form>dmData</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

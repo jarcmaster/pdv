@@ -4,8 +4,14 @@
     <Transaction>2017/10/10 15:56:35.000.187,=C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
     <Transaction>2017/11/27 14:30:12.000.822,=C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
     <Transaction>2017/12/04 09:56:39.000.639,=C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
-    <Transaction>2017/12/04 10:38:23.000.210,C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.fmx=C:\Sistemas Actuales\POS-inventory\uInventory.fmx</Transaction>
-    <Transaction>2017/12/04 10:38:23.000.210,C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Sistemas Actuales\POS-inventory\uInventory.pas</Transaction>
-    <Transaction>2017/12/04 10:38:27.000.354,C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Sistemas Actuales\POS-inventory\Inventory.dproj</Transaction>
+    <Transaction>2017/12/04 10:38:23.000.210,C:\Sistemas Actuales\POS-inventory\uInventory.pas=C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/12/04 10:38:23.000.210,C:\Sistemas Actuales\POS-inventory\uInventory.fmx=C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>2017/12/04 10:38:27.000.354,C:\Sistemas Actuales\POS-inventory\Inventory.dproj=C:\Users\jarcmaster\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2017/12/05 12:07:47.082,=C:\Sistemas Actuales\POS-inventory\Unit1.pas</Transaction>
+    <Transaction>2017/12/05 12:08:09.322,C:\Sistemas Actuales\POS-inventory\uBrand.pas=C:\Sistemas Actuales\POS-inventory\Unit1.pas</Transaction>
+    <Transaction>2017/12/05 12:08:09.322,C:\Sistemas Actuales\POS-inventory\uBrand.fmx=C:\Sistemas Actuales\POS-inventory\Unit1.fmx</Transaction>
+    <Transaction>2017/12/05 16:21:51.269,=C:\Sistemas Actuales\POS-inventory\Unit1.pas</Transaction>
+    <Transaction>2017/12/05 16:22:06.050,C:\Sistemas Actuales\POS-inventory\uData.pas=C:\Sistemas Actuales\POS-inventory\Unit1.pas</Transaction>
+    <Transaction>2017/12/05 16:22:06.050,C:\Sistemas Actuales\POS-inventory\uData.dfm=C:\Sistemas Actuales\POS-inventory\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>
