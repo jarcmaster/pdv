@@ -1,7 +1,7 @@
 object frmInventory: TfrmInventory
   Left = 0
   Top = 0
-  Caption = 'Item manager'
+  Caption = 'Item manager 0.3'
   ClientHeight = 1024
   ClientWidth = 1280
   FormFactor.Width = 320
@@ -703,7 +703,7 @@ object frmInventory: TfrmInventory
         Size.Width = 65.000000000000000000
         Size.Height = 27.000000000000000000
         Size.PlatformDefault = False
-        TabOrder = 30
+        TabOrder = 29
       end
       object Label47: TLabel
         Position.X = 256.000000000000000000
