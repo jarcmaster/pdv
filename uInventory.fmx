@@ -523,7 +523,7 @@ object frmInventory: TfrmInventory
         Size.PlatformDefault = False
         Text = 'Restrict Sale'
       end
-      object Switch6: TSwitch
+      object swtSeasonal: TSwitch
         IsChecked = False
         Position.X = 184.000000000000000000
         Position.Y = 99.000000000000000000
@@ -531,11 +531,12 @@ object frmInventory: TfrmInventory
         Size.Height = 27.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 10
+        OnSwitch = swtSeasonalSwitch
       end
       object Switch7: TSwitch
         IsChecked = False
         Position.X = 184.000000000000000000
-        Position.Y = 136.000000000000000000
+        Position.Y = 176.000000000000000000
         Size.Width = 65.000000000000000000
         Size.Height = 27.000000000000000000
         Size.PlatformDefault = False
@@ -543,7 +544,7 @@ object frmInventory: TfrmInventory
       end
       object Switch8: TSwitch
         IsChecked = True
-        Position.X = 184.000000000000000000
+        Position.X = 360.000000000000000000
         Position.Y = 218.000000000000000000
         Size.Width = 65.000000000000000000
         Size.Height = 27.000000000000000000
@@ -560,14 +561,14 @@ object frmInventory: TfrmInventory
       end
       object Label25: TLabel
         Position.X = 256.000000000000000000
-        Position.Y = 140.000000000000000000
+        Position.Y = 180.000000000000000000
         Size.Width = 97.000000000000000000
         Size.Height = 17.000000000000000000
         Size.PlatformDefault = False
         Text = 'Discontinued item'
       end
       object Label26: TLabel
-        Position.X = 256.000000000000000000
+        Position.X = 432.000000000000000000
         Position.Y = 222.000000000000000000
         Size.Width = 65.000000000000000000
         Size.Height = 17.000000000000000000
@@ -612,7 +613,7 @@ object frmInventory: TfrmInventory
       object Switch11: TSwitch
         IsChecked = False
         Position.X = 184.000000000000000000
-        Position.Y = 176.000000000000000000
+        Position.Y = 216.000000000000000000
         Size.Width = 65.000000000000000000
         Size.Height = 27.000000000000000000
         Size.PlatformDefault = False
@@ -620,7 +621,7 @@ object frmInventory: TfrmInventory
       end
       object Label29: TLabel
         Position.X = 256.000000000000000000
-        Position.Y = 180.000000000000000000
+        Position.Y = 220.000000000000000000
         Size.Width = 89.000000000000000000
         Size.Height = 17.000000000000000000
         Size.PlatformDefault = False
@@ -679,6 +680,38 @@ object frmInventory: TfrmInventory
         Size.Height = 17.000000000000000000
         Size.PlatformDefault = False
         Text = 'Age to Restrict'
+      end
+      object dedtStarts: TDateEdit
+        Date = 43074.000000000000000000
+        Enabled = False
+        Position.X = 360.000000000000000000
+        Position.Y = 104.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 27
+      end
+      object Label46: TLabel
+        Position.X = 360.000000000000000000
+        Position.Y = 88.000000000000000000
+        Text = 'Season Starts on'
+      end
+      object Switch5: TSwitch
+        IsChecked = False
+        Position.X = 184.000000000000000000
+        Position.Y = 136.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 30
+      end
+      object Label47: TLabel
+        Position.X = 256.000000000000000000
+        Position.Y = 140.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'WIC CFVV'
       end
     end
     object grbPosition: TGroupBox
@@ -9536,5 +9569,10 @@ object frmInventory: TfrmInventory
         Text = 'Last update'
       end
     end
+  end
+  object Label45: TLabel
+    Position.X = 1120.000000000000000000
+    Position.Y = 472.000000000000000000
+    Text = 'Label45'
   end
 end

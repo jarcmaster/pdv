@@ -8,7 +8,7 @@ uses
   FMX.Controls.Presentation, FMX.Edit, System.Rtti, FMX.Layouts, FMX.Grid,
   FMX.Ani, FMX.Gestures, Data.Bind.EngExt, Fmx.Bind.DBEngExt, Fmx.Bind.Grid,
   System.Bindings.Outputs, Fmx.Bind.Editors, Data.Bind.Components,
-  Data.Bind.Grid, Data.Bind.DBScope;
+  Data.Bind.Grid, Data.Bind.DBScope,db;
 
 type
   TfrmBrand = class(TForm)
@@ -29,6 +29,7 @@ type
     procedure FormShow(Sender: TObject);
     procedure edtBrandKeyDown(Sender: TObject; var Key: Word; var KeyChar: Char;
       Shift: TShiftState);
+    procedure edtBrandChange(Sender: TObject);
   private
     { Private declarations }
   public
@@ -54,15 +55,22 @@ begin
 
 end;
 
+procedure TfrmBrand.edtBrandChange(Sender: TObject);
+begin
+   edtBrand.Text := UpperCase(edtBrand.Text );
+end;
+
 procedure TfrmBrand.edtBrandKeyDown(Sender: TObject; var Key: Word;
   var KeyChar: Char; Shift: TShiftState);
 begin
-   dmData.qBrand.Locate('name',edtBrand.Text, loCaseInsensitive, loPartialKey);
+   //db LIBRARY added
+   dmData.qBrand.Locate('name',edtBrand.Text, [loCaseInsensitive, loPartialKey]);
 end;
 
 procedure TfrmBrand.FormShow(Sender: TObject);
 begin
    dmData.qBrand.Open ;
+   edtBrand.Text := '';
 end;
 
 procedure TfrmBrand.Grid1Click(Sender: TObject);

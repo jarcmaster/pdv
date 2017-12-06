@@ -208,9 +208,6 @@ Coordinates=761,1026,46,51
 [Label30]
 Coordinates=1638,10,52,51
 
-[Switch6]
-Coordinates=1223,958,54,51
-
 [Edit9]
 Coordinates=1609,958,40,51
 
@@ -316,4 +313,7 @@ Coordinates=1523,10,40,51
 
 [edtBrandName]
 Coordinates=753,958,40,51
+
+[swtSeasonal]
+Coordinates=1223,958,54,51
 

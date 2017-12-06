@@ -16,11 +16,13 @@ object frmBrand: TfrmBrand
   object edtBrand: TEdit
     Touch.InteractiveGestures = [LongTap, DoubleTap]
     TabOrder = 0
+    Cursor = crHandPoint
     Position.X = 16.000000000000000000
     Position.Y = 48.000000000000000000
-    Size.Width = 361.000000000000000000
+    Size.Width = 353.000000000000000000
     Size.Height = 22.000000000000000000
     Size.PlatformDefault = False
+    OnChange = edtBrandChange
     OnKeyDown = edtBrandKeyDown
   end
   object Label1: TLabel
@@ -91,7 +93,7 @@ object frmBrand: TfrmBrand
     TabOrder = 8
     OnClick = Grid1Click
     Options = [AlternatingRowBackground, ColumnResize, RowLines, RowSelect, AlwaysShowSelection, Tabs, Header, HeaderClick]
-    RowCount = 2529
+    RowCount = 0
     RowHeight = 40.000000000000000000
     TextSettings.Font.Size = 15.000000000000000000
     StyledSettings = [Family, Style, FontColor]
@@ -110,8 +112,8 @@ object frmBrand: TfrmBrand
   object BindingsList1: TBindingsList
     Methods = <>
     OutputConverters = <>
-    Left = 20
-    Top = 5
+    Left = 124
+    Top = 229
     object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
       Category = 'Quick Bindings'
       DataSource = BindSourceDB1

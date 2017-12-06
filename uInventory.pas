@@ -8,7 +8,8 @@ uses
   FMX.Controls.Presentation, FMX.Edit, System.Rtti, FMX.Layouts, FMX.Grid,
   Data.DB, DBAccess, MyAccess, MemDS, Data.Bind.EngExt, Fmx.Bind.DBEngExt,
   Fmx.Bind.Grid, System.Bindings.Outputs, Fmx.Bind.Editors,
-  Data.Bind.Components, Data.Bind.Grid, Data.Bind.DBScope, FMX.ListBox;
+  Data.Bind.Components, Data.Bind.Grid, Data.Bind.DBScope, FMX.ListBox,
+  FMX.DateTimeCtrls;
 
 type
   TfrmInventory = class(TForm)
@@ -68,7 +69,7 @@ type
     Label22: TLabel;
     swtRestrictSale: TSwitch;
     Label23: TLabel;
-    Switch6: TSwitch;
+    swtSeasonal: TSwitch;
     Switch7: TSwitch;
     Switch8: TSwitch;
     Label24: TLabel;
@@ -116,9 +117,15 @@ type
     Edit27: TEdit;
     Edit28: TEdit;
     Label44: TLabel;
+    dedtStarts: TDateEdit;
+    Label45: TLabel;
+    Label46: TLabel;
+    Switch5: TSwitch;
+    Label47: TLabel;
     procedure swtDepositSwitch(Sender: TObject);
     procedure swtRestrictSaleSwitch(Sender: TObject);
     procedure bBrandClick(Sender: TObject);
+    procedure swtSeasonalSwitch(Sender: TObject);
   private
     { Private declarations }
   public
@@ -167,6 +174,16 @@ begin
          edtAge2Restrict.Text := '0';
          edtAge2Restrict.Enabled := False;
       end;
+
+end;
+
+procedure TfrmInventory.swtSeasonalSwitch(Sender: TObject);
+begin
+   //Seasonal
+   if swtSeasonal.Enabled  then
+      dedtStarts.Enabled := True
+   else
+      dedtStarts.Enabled := False;
 
 end;
 
